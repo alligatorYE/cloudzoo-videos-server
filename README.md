@@ -12,13 +12,12 @@ https://github.com/alligatorYE/cloudzoo-videos-server.git
 
 
 
-CloudZoo (Personal Project - Short Video Release System): First place in the College Graduation Design Competition
+CloudZoo(Personal Project - Short Video Release System): First place in the College Graduation Design Competition.
 Project core technology stack:
-Core Framework: Spring Framework, SpringBoot Persistence Layer: MyBatis Middleware: zookeeper, redis
-Database: MySQL/MariaDB Data Source: Druid Front End Framework: Bootstrap + Jquery
-Video Processing: FFmpeg front-end paging component: jqGrid
-Cloud server platform: Tencent Cloud, Alibaba Cloud
+Core framework: Spring Framework, SpringBoot, persistence layer: MyBatis, middleware: zookeeper, redi,
+Database: MySQL/MariaDB, Data Source: Druid, Front End Framework: Bootstrap + Jquery,
+Video processing: FFmpeg, front-end paging component: jqGrid,
+Cloud server platform: Tencent Cloud, Alibaba Cloud,
 project description:
 This project is a short video platform based on WeChat applet. After the user registers, the user can post and watch the video in real time, comment, like, forward, download the posted video, and report the illegal video. Administrators can handle offending videos, upload and manage background music through the background manager. The applet management kernel framework uses the Spring boot persistence layer to use MyBatis to provide background support for user operations. The daemon core framework uses the Spring Framework persistence layer to use the MyBatis front-end framework to use Bootstrap + Jquery to manage data for administrators. The project uses zookeeper and redis as middleware, redis technology high cache to enhance user experience, cache exchange, zookeeper technology for data node monitoring, data distribution and subscription, load balancing: two servers deployed in Alibaba Cloud and Tencent Cloud Simple distributed system.
-Project address: 
-https://github.com/alligatorYE/cloudzoo-videos-server.git
+Project address: https://github.com/alligatorYE/cloudzoo-videos-server.git
