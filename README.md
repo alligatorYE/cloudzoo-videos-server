@@ -9,10 +9,10 @@
 本项目是基于微信小程序的短视频平台，用户注册后可以发布和实时观看视频，对发布的视频进行评论、点赞、转发、下载，对违规视频可以进行举报。管理员可以通过后台管理程序处理违规视频，上传和管理背景音乐。小程序后天管理程序核心框架使用Spring boot持久层使用MyBatis，为用户操作提供后台支撑。后台管理程序核心框架使用Spring Framework持久层使用MyBatis前端框架使用Bootstrap + Jquery为管理员管理数据提供服务。项目使用zookeeper和redis作为中间件，redis技术高缓存提升用户体验，以缓存换取度，zookeeper技术对数据节点监听，实现数据分发与订阅，负载均衡：部署于阿里云和腾讯云的两台服务器构成简单的分布式系统。
 项目地址:	
 https://github.com/alligatorYE/cloudzoo-videos-server.git
-https://github.com/alligatorYE/cloudzoo-videos-admin.git
 
 
-Animal Cloud (Personal Project - Short Video Release System): First place in the College Graduation Design Competition
+
+CloudZoo (Personal Project - Short Video Release System): First place in the College Graduation Design Competition
 Project core technology stack:
 Core Framework: Spring Framework, SpringBoot Persistence Layer: MyBatis Middleware: zookeeper, redis
 Database: MySQL/MariaDB Data Source: Druid Front End Framework: Bootstrap + Jquery
